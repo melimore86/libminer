@@ -8,6 +8,7 @@ This is a package that counts and tells you the sizes of libraries in your RStud
 # libminer
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/melimore86/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/melimore86/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to ...

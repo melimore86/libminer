@@ -5,6 +5,8 @@ This is a package that counts and tells you the sizes of libraries in
 your RStudio. \# libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/melimore86/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/melimore86/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to …
@@ -32,7 +34,7 @@ lib_summary()
 
     ##                                                                                        Library
     ## 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-    ## 2 /private/var/folders/j9/85xxvzw144d_4vbn_cp0rrm40000gn/T/RtmplNsS5Q/temp_libpathb02a46a3c2ae
+    ## 2 /private/var/folders/j9/85xxvzw144d_4vbn_cp0rrm40000gn/T/RtmplNsS5Q/temp_libpathb02a6d7d2ce8
     ##   n_packages
     ## 1        232
     ## 2          1
@@ -43,8 +45,7 @@ lib_summary(sizes = TRUE)
 
     ##                                                                                        Library
     ## 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-    ## 2 /private/var/folders/j9/85xxvzw144d_4vbn_cp0rrm40000gn/T/RtmplNsS5Q/temp_libpathb02a46a3c2ae
+    ## 2 /private/var/folders/j9/85xxvzw144d_4vbn_cp0rrm40000gn/T/RtmplNsS5Q/temp_libpathb02a6d7d2ce8
     ##   n_packages   lib_size
     ## 1        232 1126636916
-    ## 2          1      14195
-
+    ## 2          1      14197
