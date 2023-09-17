@@ -6,3 +6,6 @@ use_git_config(
 #
 #git_sitrep
 use_git()
+
+
+load_all()
